@@ -1,5 +1,3 @@
-# LUXE---clothing-store
-
 # 🖤 Luxe Clothing Store
 
 Welcome to **Luxe**, a premium online clothing store built with the **MERN Stack** and styled with a bold **dark luxury theme**. This project delivers a seamless, high-end shopping experience for users to explore fashion collections, view products, and purchase clothing online.
@@ -9,28 +7,25 @@ Welcome to **Luxe**, a premium online clothing store built with the **MERN Stack
 ## 🚀 Live Demo
 
 🌐 [Live Site](https://your-live-site-link.com)  
-📺 [Demo Video](https://your-demo-video-link.com) _(optional)_
+📺 [Demo Video](https://your-demo-video-link.com) *(optional)*
 
 ---
 
 ## 🛠️ Tech Stack
 
 **Frontend:**
-
 - React.js (Vite)
 - Tailwind CSS
 - React Router DOM
 - Framer Motion / AOS (Animations)
 
 **Backend:**
-
 - Node.js
 - Express.js
 - MongoDB (Mongoose)
 - dotenv, cors
 
 **Others:**
-
 - Axios
 - React Icons
 - Git & GitHub
@@ -40,18 +35,15 @@ Welcome to **Luxe**, a premium online clothing store built with the **MERN Stack
 ## 📸 Screenshots
 
 ### 💻 Homepage
-
 ![Homepage](./screenshots/homepage.png)
 
 ### 🛍️ Collections Page
-
 ![Collections](./screenshots/collections.png)
 
 ### 📦 Product Detail
-
 ![Product Detail](./screenshots/product.png)
 
-> _(Add your screenshots in a `/screenshots` folder inside the repo)_
+> *(Add your screenshots in a `/screenshots` folder inside the repo)*
 
 ---
 
@@ -87,8 +79,8 @@ npm run dev
 🧑‍💻 Author
 A.W.M.I.U Athapaththu
 📧 isharaudayanga1000@gmail.com.com
-🔗 LinkedIn -
-🐙 GitHub -
+🔗 LinkedIn - 
+🐙 GitHub - 
 
 📝 License
 This project is licensed under the MIT License - see the LICENSE file for details.
@@ -99,4 +91,3 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 
 
-```
