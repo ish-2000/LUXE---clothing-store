@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-brand-black text-brand-white font-sans;
+  margin: 0;
+  min-height: 100vh;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.scrollbar-hide {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-brand-gold text-brand-black px-6 py-2 font-serif tracking-wider uppercase text-sm font-medium transition-all hover:bg-opacity-90;
+  }
+  
+  .btn-secondary {
+    @apply bg-transparent border border-brand-gold text-brand-gold px-6 py-2 font-serif tracking-wider uppercase text-sm font-medium transition-all hover:bg-brand-gold hover:text-brand-black;
+  }
+  
+  .section-title {
+    @apply font-serif text-3xl md:text-4xl font-medium mb-8 text-center;
+  }
+  
+  .product-card {
+    @apply bg-brand-dark p-4 transition-all duration-300 hover:shadow-lg hover:shadow-brand-gold/20;
+  }
+  
+  .nav-link {
+    @apply text-brand-white hover:text-brand-gold transition-colors duration-200 uppercase tracking-wider text-sm font-medium;
+  }
+}
